@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  h1 Employees list 
+  p Ordered by salary
+  
+  table
+    thead
+      tr
+        td.fld-name Name
+        td.fld-salary Salary
+    tbody
+      - for (var ind in employees) {
+        - var emp = employees[ind]
+        tr
+          td.fld-name=emp.name
+          td.fld-salary='$' + (+emp.salary).toFixed(2)
+      - }
+
+  p 
+    strong Changes: 
+    span #{cntChanges}
+
+

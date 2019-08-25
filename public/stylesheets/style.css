@@ -1,0 +1,47 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: white;
+  text-align: center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+thead {
+  font-weight: bold;
+  background-color: #ccc;
+}
+
+table {
+  margin-left:auto; 
+  margin-right:auto;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td {
+  padding: 3px;
+}
+
+td.fld-name {
+  text-align: left;
+}
+
+td.fld-salary {
+  text-align: right;
+}
+
+
+table, tr {
+  border: 1px solid black;
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}

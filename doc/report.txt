@@ -1,0 +1,7 @@
+Used express auto generated node.js server. Root request returns employees page. 
+Const data stored in the file data/employees.csv - I think in read program in must be in dqatabase.
+CSV - JSON conversion used by 'csvtojson' library (installed by npm). 
+After JSON array sorted by self maden bubble sort procedure. Need to remember what all data from CSV will be a string as need to use +empl.salary not empl.salary.
+Presentetion used technology JADE with using JAvaScript. 
+For my opinon for solution of this problem better to use react.js with node.js (express Ok) technology. React is better for presentation layer and node.js is 
+good to use for data (JSON) supplying.
